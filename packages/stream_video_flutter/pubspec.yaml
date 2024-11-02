@@ -20,12 +20,13 @@ dependencies:
   permission_handler: ^11.3.1
   plugin_platform_interface: ^2.1.8
   rate_limiter: ^1.0.0
-  stream_video: ^0.5.5
-  visibility_detector: ^0.4.0+2
-
-dependency_overrides:
   stream_video:
     path: ../stream_video
+  visibility_detector: ^0.4.0+2
+
+#dependency_overrides:
+#  stream_video:
+#    path: ../stream_video
 
 dev_dependencies:
   flutter_test:
