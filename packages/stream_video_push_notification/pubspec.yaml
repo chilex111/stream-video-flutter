@@ -17,7 +17,11 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_webrtc: ^0.11.7
-  flutter_callkit_incoming: ^2.0.4
+  flutter_callkit_incoming:
+    git:
+      url: https://github.com/chilex111/flutter_callkit_incoming.git
+      ref: main
+      path: flutter_callkit_incoming
   json_annotation: ^4.9.0
   meta: ^1.9.1
   plugin_platform_interface: ^2.1.8
