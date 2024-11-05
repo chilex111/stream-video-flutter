@@ -20,8 +20,6 @@ dependencies:
   flutter_callkit_incoming:
     git:
       url: https://github.com/chilex111/flutter_callkit_incoming.git
-      ref: main
-      path: flutter_callkit_incoming
   json_annotation: ^4.9.0
   meta: ^1.9.1
   plugin_platform_interface: ^2.1.8
